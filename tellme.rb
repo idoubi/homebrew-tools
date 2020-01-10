@@ -7,8 +7,8 @@ class Tellme < Formula
   depends_on "go" => :build
 
   def install
-    system "cp", "festival.json", bin/"festival.json"
     system "go", "build", "-o", bin/"tellme"
+    system "cp", "festival.json", bin/"festival.json"
   end
 
   test do
