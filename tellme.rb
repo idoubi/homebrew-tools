@@ -9,7 +9,6 @@ class Tellme < Formula
   def install
     system "go", "build", "-o", bin/"tellme"
     system "cp", "festival.json", bin/"festival.json"
-    system "ln", "-s", bin/"festival.json", "/usr/local/bin/festival.json"
   end
 
   test do
