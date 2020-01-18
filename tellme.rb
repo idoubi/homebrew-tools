@@ -1,8 +1,8 @@
 class Tellme < Formula
   desc "a cli tool to get information."
   homepage "https://github.com/idoubi/tellme"
-  url "https://github.com/idoubi/tellme/archive/v0.3.1.tar.gz"
-  sha256 "c0c9271b04a7e2c4a6789ea147e0470f879ca4dea2b39ab1ef3bf57d89001944"
+  url "https://github.com/idoubi/tellme/archive/v0.3.2.tar.gz"
+  sha256 "350d22eb086412b7b8799cad7076e4bc1b987f384c7a1507812c89758ce7de47"
 
   depends_on "go" => :build
 
